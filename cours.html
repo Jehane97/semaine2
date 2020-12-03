@@ -1,0 +1,130 @@
+<!--Déclaration HTML-->
+
+<!DOCTYPE html>
+<html lang="en"> <!--Langue-->
+<head> <!--En tête de la page-->
+    <meta charset="UTF-8"> <!--Encodage bon fonctionnement caractères spéciaux-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsive-->
+    <title>Document</title> <!--Titre de l'onglet-->
+    <link rel="stylesheet" href="cours.css"> <!--Link to css-->
+</head>
+
+<body><!--Corps-->
+    <h1>Bienvenue</h1> <!--Titres jusqu'à 6 tailles-->
+    <h2>Traductions</h2>
+
+    <ol> <!--Liste ordonnée-->
+        <li>Salut</li>
+        <li>Hello</li>
+    </ol>
+
+    <ul> <!--Liste non ordonnée-->
+        <li>Hallo</li>
+        <li>Ciao</li>
+    </ul>
+
+    <p>Paragraphe 1</p> <!--Paragraphe-->
+    <p class="presentation">Paragraphe 2</p> <!--attribut class repere pour css-->
+
+    <img src="lien" alt="titre"> <!--Insertion d'image-->
+
+    <a href="http://"></a> <!--Insertion lien-->
+    <iframe src="youtube" frameborder="0"></iframe> <!--Insertion vidéo Youtube-->
+
+    <p id="logo"></p> <!--Repère unique -- qu'un seul id avec le meme nom-->
+    <p class="introduction"></p> <!--Repère -- peut avoir plusieurs class au même nom-->
+    <p title="cliquez"></p> <!--Ajouter une infobulle au survol-->
+    <p><span class="bienvenue">Bienvenue</span> sur mon site</p> <!--<span> permet d'encadrer un 
+        element pour pouvoir le cibler et le modifier dans css-->
+        <div></div> <!--Balise comme un paragraphe -- mieux pour la mise en page-->
+
+    <hr> <!--Horizontal Rule -- Barre horizontale séparative-->
+    <br> <!--Aller à la ligne-->
+
+    <em></em> <!--Italique-->
+    <strong></strong> <!--Gras-->
+    <mark></mark> <!--Surligner jaune-->
+    
+
+
+
+    <!--TABLEAUX-->
+
+    <table>
+        <tr>
+            <td><strong>Firstname</strong></td>
+            <td><strong>Lastname</strong></td>
+            <td><strong>Age</strong></td>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>  <!--td représente les lignes-->
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+
+    <!--FORMULAIRES-->
+    <form action="/action_page.php"> <!--Declaration formulaire-->
+
+    <label for="fname">* Ton nom :</label><br>
+    <input type="text" id="fname" name="fname"><br> <!--Champ texte à remplir-->
+
+    <label for="email">* Ton email :</label><br> 
+<input type="email" id="email" name="email"><br> <!--Champ email à remplir-->
+
+<label for="age">* Ton âge :</label><br>
+<input type="number" id="age" name="age"><br><br> <!--Champ numéroté à remplir pour selectioner lage-->
+
+
+<!--Menu deroulant pour selectionner un choix-->
+<select id="activité" name="activité">
+    <option disabled selected value>Dis moi en plus sur toi</option> 
+        <!--Option pour griser la valeur, devient donc non selectionnable
+        commande disabled selected value>....-->
+    <option value="étudiant">Etudiant</option>
+    <option value="employé">Employé</option><br>
+    </select>
+
+
+    <!--Selection choix unique avec l'input type= radio-->
+    <p>Me recommandes-tu ?</p>
+    <label for="oui">Oui</label>
+    <input type="radio" name="réponse" id="oui" value="oui"><br>
+    <label for="peut-être">Peut-être</label>
+    <input type="radio" name="réponse" id="peut-être" value="peut-être"><br>
+    <label for="non">Non</label>
+
+
+    <!--Selection choix multiples avec l'input type= checkbox-->
+    <p>Que dois-je améliorer</p>
+    <input type="checkbox" id="choix1" name="choix1" value="portfolio">
+    <label for="choix1">Le Portfolio</label><br>
+    <input type="checkbox" id="choix2" name="choix2" value="page">
+    <label for="choix2">La page de vente</label><br>
+input
+
+
+
+
+    <!--BALISES SEMANTIQUES-->
+
+    <figure></figure> <!--Indique une image importante qui illustre le texte-->
+    <figcaption></figcaption> <!--Légende de l'image-->
+
+
+
+
+
+</body>
+</html>

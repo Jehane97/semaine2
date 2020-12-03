@@ -1,0 +1,30 @@
+h1{ 
+    color: white;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    
+}
+p{
+    color: white;
+    
+}
+ol{
+    color: white;
+    font-weight: bold;
+    font-family: 'Xanh Mono', monospace;;
+    
+}
+body{
+    background-color: lightcoral;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para1{
+    border-width: 4px;
+    border-style: dotted;
+    color: lightblue;
+    opacity: 0.5;
+    text-align: center;
+}

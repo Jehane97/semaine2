@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body> 
+    <h1>Nous souhaitons nous améliorer</h1> 
+    <p>Dis moi comment je peux m'améliorer.</p>
+    <form action="/action_page.php">
+    <label for="fname">* Ton nom :</label><br>
+    <input type="text" id="fname" name="fname"><br>
+<label for="email">* Ton email :</label><br> 
+<input type="email" id="email" name="email"><br>
+<label for="age">* Ton âge :</label><br>
+<input type="number" id="age" name="age"><br>
+<p>Qu'est-ce qui te correspond le mieux à l'instant présent :</p>
+<select id="activité" name="activité">
+  <option disabled selected value>Dis moi en plus sur toi</option>
+  <option value="étudiant">Etudiant</option>
+  <option value="employé">Employé</option>
+  <option value="profession libérale">Profession libérale</option>
+  <option value="je ne préfère rien dire">Je ne préfère rien dire</option>
+  <option value="autre">Autre</option>
+</select>
+<p>Est-ce que tu me recommandes?</p>
+<label for="oui">Oui</label>
+  <input type="radio" name="réponse" id="oui" value="oui"><br>
+  <label for="peut-être">Peut-être</label>
+  <input type="radio" name="réponse" id="peut-être" value="peut-être"><br>
+  <label for="non">Non</label>
+  <input type="radio" name="réponse" id="non" value="non"><br>
+  <p>Pourquoi as-tu choisis mes services ?</p>
+  <select id="pourquoi" name="pourquoi">
+    <option disabled selected value>Choisis une réponse</option>
+    <option value="propose">Pour ce que je propose</option>
+    <option value="projets">Pour les différents projets réalisés</option>
+    <option value="recommandation">Par recommandation</option>
+    <option value="transparent">Le fait d'être transparent avec ma communauté</option>
+  </select>
+  <p>Qu'est-ce que je dois améliorer : <br> 
+  (choix illimité):</p>
+  <input type="checkbox" id="choix1" name="choix1" value="portfolio">
+  <label for="choix1">Le Portfolio</label><br>
+  <input type="checkbox" id="choix2" name="choix2" value="page">
+  <label for="choix2">La page de vente</label><br>
+  <input type="checkbox" id="choix3" name="choix3" value="présence">
+  <label for="choix3">Présence sur les réseaux sociaux</label><br>
+  <input type="checkbox" id="choix4" name="choix4" value="design">
+  <label for="choix4">Le design du portfolio</label><br>
+  <p>Un commentaire à ajouter ?</p>
+
+  <textarea name="message" style="width:180px; height:60px;">Chaque commentaire nous fait avancer, alors n'hésites pas.</textarea>
+  <br>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11136.18521299312!2d4.870472789760366!3d45.75021766568415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1dad84a34a3%3A0xebabb512dda99173!2sMontchat%2C%2069003%20Lyon!5e0!3m2!1sfr!2sfr!4v1605782797814!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+  <input type="submit" value="Envoi !">
+  </form>
+  
+</body>
+</html>

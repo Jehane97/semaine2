@@ -1,0 +1,48 @@
+#logo{
+    width: 120px;
+    height: 100px;
+    
+}
+body{
+    background-color: lightskyblue;
+}
+
+.favoris{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fav{
+    width: 100%;
+}
+
+.taille{
+    width: 30%;
+}
+
+body{
+    background-color: darksalmon;
+    font-family: 'Spartan', sans-serif;;
+}
+
+h1, h2{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: black;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+}
+
+}

@@ -1,0 +1,56 @@
+h1{ 
+    color: blue; /* Couleur du texte*/
+} 
+h2{
+    font-size: 50px; /*Taille du texte*/
+    background-color: chartreuse; /*Couleur de fond du texte*/
+}
+p{
+    color: rebeccapurple; /*Couleur pour tous les p*/
+}
+
+.presentation{
+    color: burlywood; /*Couleur pour un élément identifié avec attribut (ex class)*/
+}
+
+body{
+    background-color: seagreen; /*Couleur arrière plan du site*/
+}
+
+.bienvenue{
+    color: coral; /*Couleur pour un élément identifié avec balise span*/
+
+}
+
+* p{
+    color:blue ; /*Tous les paragraphes en bleu*/
+}
+
+h1 + p{
+    color:darkcyan; /* h1 + le premier paragraphe qui le suit en bleu*/
+}
+
+h1 em{
+    color: darkorchid; /*Cible le em contenu dans le h1*/
+}
+
+body{
+    /*
+    background: url (image) permet de mettre l'image en fond.
+    mettre le lien externe dans l'url
+    no-repeat: evite que l'image soit repetée
+    center center: image centrée horizontalement et verticalement
+    background-size: permet de redimensionner l'image
+    cover prend tout l'ecran
+    */
+    background: url("https://images.unsplash.com/photo-1601513445637-997d743ac760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
+    background-size: cover;
+} 
+
+.para1{
+    border-width: 4px;    /*Epaisseur de la bordure*/
+    border-style: dotted; /*Style de bordure dotted= pointillé, solid=trait continu*/
+    color: lightblue;  /*Couleur du texte*/
+    opacity: 0.5;        /*Opacité*/
+    text-align: center; /* Centrage du texte*/
+}
